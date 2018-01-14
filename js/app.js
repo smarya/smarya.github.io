@@ -5,7 +5,7 @@ app.config(function($routeProvider) {
         templateUrl : "main.htm"
     })
     .when("/bhoji", {
-        templateUrl : "bhoji.htm"
+        templateUrl : "bhogi.htm"
     })
    
     .otherwise({
