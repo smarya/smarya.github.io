@@ -4,15 +4,10 @@ app.config(function($routeProvider) {
     .when("/", {
         templateUrl : "main.htm"
     })
-    .when("/red", {
-        templateUrl : "red.htm"
+    .when("/bhoji", {
+        templateUrl : "bhoji.htm"
     })
-    .when("/green", {
-        templateUrl : "green.htm"
-    })
-    .when("/blue", {
-        templateUrl : "blue.htm"
-    })
+   
     .otherwise({
         template : "404.html"
     });
