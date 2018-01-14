@@ -7260,4 +7260,16 @@ line-height:8px
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
+/*center align*/
+  .align-center{
+
+    -webkit-align-content: center;
+    align-content: center;
+    margin-top: 2cm;
+    margin-left: 10cm;
+    margin-right:2cm;
+    margin-bottom:5cm;
+
+  }
  
