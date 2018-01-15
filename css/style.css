@@ -10,27 +10,17 @@
  * Copyright 2011-2017 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
- @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700"); 
-:root{  
---blue:#2780E3; 
---indigo:#6610f2; 
---purple:#613d7c; 
---pink:#e83e8c; 
---red:#FF0039; 
---orange:#f0ad4e; 
---yellow:#FF7518; 
---green:#3FB618; 
---teal:#20c997; 
---cyan:#9954BB; 
---white:#fff; 
---gray:#868e96; 
---gray-dark:#373a3c; 
---primary:#2780E3; 
---secondary:#373a3c; 
---success:#3FB618; 
---info:#9954BB; 
---warning:#FF7518; 
---danger:#FF0039; 
+
+ .align-center{
+
+    -webkit-align-content: center;
+    align-content: center;
+    margin-top: 2cm;
+    margin-left: 10cm;
+    margin-right:2cm;
+    margin-bottom:5cm;
+
+  }anger:#FF0039; 
 --light:#f8f9fa; 
 --dark:#373a3c; 
 --breakpoint-xs:0; 
@@ -7261,15 +7251,4 @@ line-height:8px
     text-align: center;
 }
 
-/*center align*/
-  .align-center{
-
-    -webkit-align-content: center;
-    align-content: center;
-    margin-top: 2cm;
-    margin-left: 10cm;
-    margin-right:2cm;
-    margin-bottom:5cm;
-
-  }
  

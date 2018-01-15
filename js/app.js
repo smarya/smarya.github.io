@@ -2,12 +2,12 @@ var app = angular.module("smarya", ["ngRoute"]);
 app.config(function($routeProvider) {
     $routeProvider
     .when("/", {
-        templateUrl : "index.htm"
+        templateUrl : "./index.htm"
     })
     .when("/bhogi", {
-        templateUrl : "bhogi.htm"
+        templateUrl : "./bhogi.html"
     })
     .otherwise({
-        template : "404.html"
+        redirectTo : "./404.html"
     });
 });
